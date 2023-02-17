@@ -7,11 +7,6 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
-    inputs:
-     Revisionversion:
-     description: 'CURL Revision version'
-     required: true
-     default: '2'
   release:
     types: [published]
 
