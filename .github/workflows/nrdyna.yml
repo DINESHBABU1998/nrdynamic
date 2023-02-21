@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: run curl
         id: testcases
-        run: |
+        run: 
 
             version=$((${{github.event.inputs.Revisionversion}}+1))
             echo "newversion=$((version))"
