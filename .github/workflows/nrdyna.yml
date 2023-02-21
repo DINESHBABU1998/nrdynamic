@@ -18,12 +18,12 @@ on:
 
 jobs:
   newrelic:
-    runs-on: ubuntu-latest
+    runs-on: ubunt
     name: New Relic
     steps:
       - name: run curl
         id: testcases
-        run: 
+        run: |
 
             version=$((${{github.event.inputs.Revisionversion}}+1))
             echo "newversion=$((version))"
