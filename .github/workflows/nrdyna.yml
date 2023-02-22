@@ -18,7 +18,7 @@ on:
 
 jobs:
   newrelic:
-    runs-on: ubunt
+    runs-on: ubuntu
     name: New Relic
     steps:
       - name: run curl
